@@ -1,5 +1,4 @@
 # Design_Patterns
-C++ implements
 
 概念：http://c.biancheng.net/design_pattern/
 
