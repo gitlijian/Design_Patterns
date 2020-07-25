@@ -105,7 +105,7 @@ public:
         // 第一次检查：实例化单例对象后，就不会再进入加锁逻辑
         if (p_singleton_ == nullptr)
         {
-            std::lock_guard<std::mutex> lock(mux_);
+            std::lock_guard<std::mutex> lock(mux_);// 为什么不把该行写在上一个if外面，初步判断是锁的开销会比if的开销大
             // 第二次检查：可能两个线程同时通过第一次检查，一个线程获得锁时，可能另外一个线程已经实例化单体
             if (p_singleton_ == nullptr)
             {
