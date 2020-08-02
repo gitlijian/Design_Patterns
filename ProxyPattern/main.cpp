@@ -101,9 +101,6 @@ class Proxy : public Subject {
       // ...
     }
 
-
-#include <iostream>
-
 int main(int argc, const char * argv[]) {
     std::cout << "Client: Executing the client code with a real subject:\n";
     RealSubject *real_subject = new RealSubject;
