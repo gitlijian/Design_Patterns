@@ -60,7 +60,7 @@ sunshaowei： 3/6/9/12/15/18/21/24
 
 概念：
    
-   1）开闭原则（Open Close Principle）
+    1）开闭原则（Open Close Principle）
 
 　　　　开闭原则的意思是：对扩展开放，对修改关闭。在程序需要进行拓展的时候，不能去修改原有的代码。
 
